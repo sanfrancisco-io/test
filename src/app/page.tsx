@@ -186,18 +186,6 @@ export default function Home() {
       <Modal
         destroyOnClose
         footer={null}
-        title="Edit Aircraft"
-        open={isEditModalOpen}
-        onCancel={handleEditCancel}
-      >
-        <EditAircraftForm
-          onSave={onSaveEditAircraft}
-          onCancel={handleEditCancel}
-        />
-      </Modal>
-      <Modal
-        destroyOnClose
-        footer={null}
         title="Status history"
         open={isHistoryOpen}
         onCancel={handleHistoryCancel}
