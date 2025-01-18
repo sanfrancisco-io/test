@@ -1,0 +1,82 @@
+{
+  "aircrafts": [
+    {
+      "id": "5277",
+      "registrationNumber": "1010",
+      "model": "AR100",
+      "year": "2020-01-17T18:00:00.000Z",
+      "status": "ready",
+      "history": []
+    },
+    {
+      "id": "5bf0",
+      "registrationNumber": "1020",
+      "model": "AR200",
+      "year": "2021-01-17T18:00:00.000Z",
+      "status": "not ready",
+      "history": []
+    },
+    {
+      "registrationNumber": "1030",
+      "model": "B110",
+      "year": "2024-01-17T18:00:00.000Z",
+      "status": "rejected",
+      "history": [
+        {
+          "newStatus": "rejected",
+          "comment": "test",
+          "date": "2025-01-18T15:37:20.515Z"
+        }
+      ],
+      "id": "076c"
+    },
+    {
+      "registrationNumber": "test",
+      "model": "test",
+      "year": null,
+      "status": "test",
+      "history": [
+        {
+          "newStatus": "test",
+          "comment": "new test",
+          "date": "2025-01-18T15:36:23.588Z"
+        }
+      ],
+      "id": "u_yHeyl"
+    },
+    {
+      "registrationNumber": "test",
+      "model": "test",
+      "year": "2020-01-17T18:00:00.000Z",
+      "status": "second 123",
+      "history": [
+        {
+          "newStatus": "second 123",
+          "comment": "test",
+          "date": "2025-01-18T15:40:44.086Z"
+        },
+        {
+          "newStatus": "second ",
+          "comment": "test",
+          "date": "2025-01-18T15:40:36.513Z"
+        },
+        {
+          "newStatus": "second ",
+          "comment": "second comment",
+          "date": "2025-01-18T15:38:18.775Z"
+        },
+        {
+          "newStatus": "test",
+          "comment": "new test",
+          "date": "2025-01-18T15:38:03.303Z"
+        },
+        {
+          "newStatus": "test",
+          "comment": "test",
+          "date": "2025-01-18T15:37:55.002Z"
+        }
+      ],
+      "id": "MxTwILY"
+    }
+  ]
+}
